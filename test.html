@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>test2</title>
+  </head>
+  <body>
+    <div id="cart">CART =</div>
+    <button onclick="addToCart()">Apple</button>
+    <button onclick="addToCart()">Tomato</button>
+    <button onclick="addToCart()">Egg</button>
+    <button onclick="addToCart()">Clear</button>
+    <script>
+
+      
+      function addToCart() {
+        let element = document.createElement("div");
+        let grabCart = document.getElementById("cart");
+        grabCart.innerText = "Apple";
+      }
+
+
+
+
+
+    </script>
+  </body>
+</html>
